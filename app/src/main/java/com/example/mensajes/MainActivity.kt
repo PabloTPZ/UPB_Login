@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     fun verificar() {
         entrar.setOnClickListener {
-            val toast = Toast.makeText(this,"verificar",Toast.LENGTH_SHORT)
+            val toast = Toast.makeText(this,"Entrar",Toast.LENGTH_SHORT)
             toast.show()
         }
     }
